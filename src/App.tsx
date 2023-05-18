@@ -1,10 +1,14 @@
+import React from "react";
+import AppLayout from "./layouts/main-layout";
+const WishlistPage = React.lazy(() => import("./pages/wishlist-page"));
+
 function App() {
   return (
-    <>
-      <div className="h-screen w-screen flex items-center justify-center">
-        <h1>Lampoo</h1>
-      </div>
-    </>
+    <AppLayout>
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <WishlistPage />
+      </React.Suspense>
+    </AppLayout>
   );
 }
 
