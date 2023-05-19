@@ -2,6 +2,8 @@
 
 Application available at this [link](https://astounding-bublanina-6a09de.netlify.app)
 
+This application is developed with ViteJS, ReactJS, Tailwindcss and Typescript.
+
 ## Run app locally
 
     To run the app locally follow this steps:
