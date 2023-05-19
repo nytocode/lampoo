@@ -40,8 +40,11 @@ This application is developed with ViteJS, ReactJS, Tailwindcss and Typescript.
 
 ## Deploy app to Netlify
 
-    Netlify is one of the free solution for deployng a react app. The procedure is quite simple and require few steps:
+    Netlify is one of the free solution for deployng a react app.
+
     It is required to have a Netlify account.
+
+    The procedure is quite simple and require few steps:
 
     1. Login to Netlify
 
