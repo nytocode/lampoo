@@ -19,7 +19,7 @@ const ProductCard = ({ product, onRemove }: Props) => {
         {product.is_new_with_tag ? "NEW WITH TAG" : ""}
       </span>
       <img
-        className="pt-6 px-8 w-full h-auto"
+        className="pt-8 px-8 w-full h-auto"
         src={product.image}
         alt={`${product.name} image`}
       />

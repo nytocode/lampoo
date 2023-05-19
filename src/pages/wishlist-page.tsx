@@ -23,7 +23,7 @@ const WishlistPage = () => {
   };
 
   return (
-    <div className="px-4 py-6 lg:container mx-auto">
+    <div className="px-4 py-10 lg:container mx-auto">
       <h3 className="text-center font-medium text-2xl mb-6 md:text-left">
         Wishlist
       </h3>
